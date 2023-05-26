@@ -1,10 +1,10 @@
 # This is the Source code for the TimpiChain on the Testnet.
 
-# To run a node you have to 
+# To get started you have to
 - copy this repo
 - install go (https://go.dev/doc/install) version 1.18.1 works.
 - go to /cmd/TimpiChain
-- go build
+- execute "go build"
 - now you can start setting up the node.
 
 # To run a standalone node to play around with
