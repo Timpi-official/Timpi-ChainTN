@@ -18,7 +18,7 @@
 - ./TimpiChain start
 
 # To run a linked node you do
--./TimpiChain init TimpiChain
+- ./TimpiChain init TimpiChain
 
 copy the genesis.json file from http://173.249.54.208/genesis.json into root/.TimpiChain/config and replace the old one.
 edit the config.toml in the same directory and change 
