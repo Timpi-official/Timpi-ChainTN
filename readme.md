@@ -37,6 +37,8 @@ laddr = "tcp://0.0.0.0:26657"
 and add "7d6938bdfce943c1d2ba10f3c3f0fe8be7ba7b2c@173.249.54.208:26656" to
 persistent_peers = "" like so persistent_peers = "7d6938bdfce943c1d2ba10f3c3f0fe8be7ba7b2c@173.249.54.208:26656"
 
+- ./TimpiChain start
+
 # To use the faucet
 - add a key to your node and use this link http://173.249.54.208:1337/YOURWALLET. Replace YOURWALLET with your address.
 
