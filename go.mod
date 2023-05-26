@@ -1,4 +1,4 @@
-module github.com/superofficer/timpiwasm
+module github.com/Timpi-official/Timpi-ChainTN
 
 go 1.16
 
