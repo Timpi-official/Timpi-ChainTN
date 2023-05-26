@@ -1,4 +1,4 @@
-This is the Source code for the TimpiChain on the Testnet.
+# This is the Source code for the TimpiChain on the Testnet.
 
 To run a node you have to 
 - copy this repo
@@ -7,7 +7,7 @@ To run a node you have to
 - go build
 - now you can start setting up the node.
 
-To run a standalone node to play around with
+# To run a standalone node to play around with
 
 - ./TimpiChain init TimpiChain --chain-id WhatYouWant
 - ./TimpiChain keys add MainValidator --keyring-backend test
@@ -16,7 +16,7 @@ To run a standalone node to play around with
 - ./TimpiChain collect-gentxs
 - ./TimpiChain start
 
-To run a validator you do
+# To run a validator you do
 -./TimpiChain init TimpiChain
 
 copy the genesis.json file from http://173.249.54.208/genesis.json into root/.TimpiChain/config and replace the old one.
@@ -24,14 +24,14 @@ edit the config.toml in the same directory and change
 
 [rpc]
 
-# TCP or UNIX socket address for the RPC server to listen on
+TCP or UNIX socket address for the RPC server to listen on
 laddr = "tcp://127.0.0.1:26657"
 
 to
 
 [rpc]
 
-# TCP or UNIX socket address for the RPC server to listen on
+TCP or UNIX socket address for the RPC server to listen on
 laddr = "tcp://0.0.0.0:26657"
 
 and add "7d6938bdfce943c1d2ba10f3c3f0fe8be7ba7b2c@173.249.54.208:26656" to
