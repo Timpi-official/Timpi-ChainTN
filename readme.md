@@ -1,6 +1,7 @@
 # This is the Source code for the TimpiChain on the Testnet.
 
 # To get started you have to
+- use Linux
 - copy this repo
 - install go (https://go.dev/doc/install) version 1.18.1 works.
 - go to /cmd/TimpiChain
