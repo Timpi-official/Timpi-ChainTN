@@ -45,7 +45,8 @@ persistent_peers = "" like so persistent_peers = "7d6938bdfce943c1d2ba10f3c3f0fe
 - ./TimpiChain tx staking create-validator --amount=1500000utimpiTN --pubkey=$(./TimpiChain tendermint show-validator)  --moniker=WhatYouWant --chain-id=TimpiChainTN --from YourWallet --keyring-backend test --commission-rate="0.10" --commission-max-rate="0.20" --commission-max-change-rate="0.01" --min-self-delegation="1000000" --gas="auto" --gas-prices="0.0025utimpiTN" --gas-adjustment="1.5"
 you can check the validators via 
 - ./TimpiChain query staking validators
- and the active ( top 120 ) ones with 
+
+and the active ( top 120 ) ones with 
 - ./TimpiChain q tendermint-validator-set
 
 if you want / have to increase your staked tokens you can use
