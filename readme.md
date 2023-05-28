@@ -40,6 +40,15 @@ persistent_peers = "" like so persistent_peers = "7d6938bdfce943c1d2ba10f3c3f0fe
 
 - ./TimpiChain start
 
+# To run a validator node you
+- you have to stake at least 1 timpiTN ( 1.000.000utimpiTN ), but also be in the top 120 on all staking validators.
+- ./TimpiChain tx staking create-validator --amount=1500000utimpiTN --pubkey=$(./TimpiChain tendermint show-validator)  --moniker=WhatYouWant --chain-id=TimpiChainTN --from YourWallet --keyring-backend test --commission-rate="0.10" --commission-max-rate="0.20" --commission-max-change-rate="0.01" --min-self-delegation="1000000" --gas="auto" --gas-prices="0.0025utimpiTN" --gas-adjustment="1.5"
+you can check the validators via ./TimpiChain query staking validators and the active ( top 120 ) ones with ./TimpiChain q tendermint-validator-set
+
+if you want / have to increase your staked tokens you can use
+- ./TimpiChain tx staking delegate ValidatorAddress 1000000utimpiTN --from YourWallet --chain-id TimpiChainTN --keyring-backend test
+1000000 being however much you want to delegate.
+
 # To use the faucet
 - add a key to your node and use this link http://173.249.54.208:1337/YOURWALLET. Replace YOURWALLET with your address.
 
