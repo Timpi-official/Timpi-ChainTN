@@ -57,3 +57,5 @@ if you want / have to increase your staked tokens you can use
 # To use the faucet
 - add a key to your node and use this link http://173.249.54.208:1337/YOURWALLET. Replace YOURWALLET with your address.
 
+if you use the faucet too quickly you will be timed out before getting your token limit. ./TimpiChain q bank balances YOURWALLET check after every call if you got the tokens and then call the API again when you did.
+
