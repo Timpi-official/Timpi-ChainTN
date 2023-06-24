@@ -35,8 +35,8 @@ to
 TCP or UNIX socket address for the RPC server to listen on
 laddr = "tcp://0.0.0.0:26657"
 
-and add "f711d25e871cbee29210e7e7b89b67552a5b5357@173.249.54.208:26656" to
-persistent_peers = "" like so persistent_peers = "f711d25e871cbee29210e7e7b89b67552a5b5357@173.249.54.208:26656"
+and add "84dec73dd411e884251f4d79946467c82ddf9a2c@45.79.45.253:26656" to
+persistent_peers = "" like so persistent_peers = "84dec73dd411e884251f4d79946467c82ddf9a2c@45.79.45.253:26656"
 
 - ./TimpiChain start
 
