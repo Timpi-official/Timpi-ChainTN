@@ -51,7 +51,7 @@ and the active ( top 100 ) ones with
 - ./TimpiChain q tendermint-validator-set
 
 if you want / have to increase your staked tokens you can use
-- ./TimpiChain tx staking delegate ValidatorAddress 1000000utimpiTN --from YourWallet --chain-id TimpiChainTN --keyring-backend test
+- ./TimpiChain tx staking delegate ValidatorAddress 1000000utimpiTN --from YourWallet --chain-id TimpiChainTN2 --keyring-backend test
 1000000 being however much you want to delegate.
 
 # To use the faucet
