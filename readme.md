@@ -35,14 +35,14 @@ to
 TCP or UNIX socket address for the RPC server to listen on
 laddr = "tcp://0.0.0.0:26657"
 
-and add "4e69f430ecbd3d8a4dc33f44b99d4ff8c67b7e3f@173.249.54.208:26656" to
-seeds = "" like this seeds = "4e69f430ecbd3d8a4dc33f44b99d4ff8c67b7e3f@173.249.54.208:26656"
+and add "16700793659365235701335a41dd7b2b317518dd@173.249.54.208:26656" to
+persistent_peers = "" like this persistent_peers = "16700793659365235701335a41dd7b2b317518dd@173.249.54.208:26656"
 
 - ./TimpiChain start
 
 # To run a validator node you
 - you have to stake at least 1 timpiTN ( 1.000.000utimpiTN ), but also be in the top 120 on all staking validators.
-- ./TimpiChain tx staking create-validator --amount=1500000utimpiTN --pubkey=$(./TimpiChain tendermint show-validator)  --moniker=WhatYouWant --chain-id=TimpiChainTN --from YourWallet --keyring-backend test --commission-rate="0.10" --commission-max-rate="0.20" --commission-max-change-rate="0.01" --min-self-delegation="1000000" --gas="auto" --gas-prices="0.0025utimpiTN" --gas-adjustment="1.5"
+- ./TimpiChain tx staking create-validator --amount=1500000utimpiTN --pubkey=$(./TimpiChain tendermint show-validator)  --moniker=WhatYouWant --chain-id=TimpiChainTN2 --from YourWallet --keyring-backend test --commission-rate="0.10" --commission-max-rate="0.20" --commission-max-change-rate="0.01" --min-self-delegation="1000000" --gas="auto" --gas-prices="0.0025utimpiTN" --gas-adjustment="1.5"
 
 you can check the validators via 
 - ./TimpiChain query staking validators
